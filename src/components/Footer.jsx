@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <ul>
-        <li><a href="github.com/JakeHigham">GitHub</a></li>
+        <li><a href="https://github.com/JakeHigham">GitHub</a></li>
         
         {/* Add more links as needed */}
       </ul>
