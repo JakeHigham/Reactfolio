@@ -1,4 +1,4 @@
-# Reactfolio - [Jake Higham]
+# Reactfolio - Jake Higham
 
 Welcome to my personal portfolio website built with React. This site showcases some of my recent projects, a downloadable version of my resume, and a way to contact me directly through the site.
 This was absolutely the most fun I've had all year, please check the site out, I worked really hard on this!
