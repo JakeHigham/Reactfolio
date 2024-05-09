@@ -1,22 +1,18 @@
-// Portfolio.jsx
 import React from 'react';
-import Project from '../components/Project'; // Use correct path to Project component
+import Card from '../components/Card'; 
+import projects from '../projectData';
 
 function Portfolio() {
-  return (
-    <section>
-      <h2>Portfolio</h2>
-      <div className="projects">
-        {/* Add multiple Project components here */}
-        <Project
-          title="Hiragana Practice"
-          image="project-image.jpg"
-          deployedLink="https://jakehigham.github.io/Hiragana-Practice/"
-          githubLink="https://github.com/JakeHigham/Hiragana-Practice"
-        />
-      </div>
-    </section>
-  );
+    return (
+        <section>
+            <h1>My Portfolio</h1>
+            <div className="project-container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+                {projects.map((project) => (
+                    <Card key={project.id} project={project} />
+                ))}
+            </div>
+        </section>
+    );
 }
 
 export default Portfolio;

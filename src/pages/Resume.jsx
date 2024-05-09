@@ -1,14 +1,18 @@
-const pdfUrl = "resume.pdf"
-
-export default function Resume() {        
+function Resume() {
     return (
-        <div>
+        <div style={{ textAlign: 'center', marginTop: '20px' }}>
             <h1>Resume</h1>
-            <a href="resume.pdf" download="resume.pdf">
-                <button>Download PDF</button>
+            <a href="/Resume.pdf" download="Jake_Higham_Resume.pdf">
+                <button style={{
+                    padding: '10px 20px',
+                    fontSize: '16px',
+                    color: '#fff',
+                    backgroundColor: '#007bff',
+                    border: 'none',
+                    borderRadius: '5px',
+                    cursor: 'pointer'
+                }}>Download PDF</button>
             </a>
         </div>
-    )
+    );
 }
-
-    

@@ -1,0 +1,140 @@
+/* Global variables */
+:root {
+  --primary-color: #007bff; /* Vibrant blue */
+  --secondary-color: #f8f9fa; /* Soft gray */
+  --accent-color: #0056b3; /* Dark blue */
+  --text-color: #333; /* Dark gray */
+  --error-color: #dc3545; /* Red */
+}
+
+/* General styles */
+* {
+  font-family: 'Arial', sans-serif;
+  color: var(--text-color);
+}
+
+header, footer {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
+/* Specific section styles */
+.contact-form button, .contact-form input, .contact-form textarea {
+  border-color: var(--primary-color);
+}
+
+.contact-form button:hover {
+  background-color: var(--accent-color);
+}
+
+/* Portfolio adjustments */
+.project-container .project img {
+  border: 3px solid var(--primary-color);
+}
+
+.project-container .project:hover img {
+  border-color: var(--accent-color);
+}
+
+.about-me-section {
+  position: relative;
+  padding: 20px;
+}
+
+.about-me-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-me-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.profile-img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.resume-container {
+  text-align: center; /* Center content */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.resume-container h1 {
+  color: var(--primary-color);
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: var(--accent-color);
+}
+
+.contact-container {
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--secondary-color); /* Soft gray background for the form */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.contact-container h1 {
+  color: var(--primary-color);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: var(--accent-color);
+}

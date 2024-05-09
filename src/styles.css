@@ -1,17 +1,5 @@
-/* styles.css */
-
 /* Reset default browser styles */
-body,
-h1,
-h2,
-h3,
-ul,
-li,
-p,
-form,
-input,
-textarea,
-button {
+body, h1, h2, h3, ul, li, p, form, input, textarea, button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,14 +7,14 @@ button {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
+  background-color: #f8f9fa; /* Soft gray background */
+  color: #333; /* Dark gray text color */
   line-height: 1.6;
-  padding-top: 50px; /* Add space for the header */
+  padding-top: 50px; /* Space for the header */
 }
 
 header {
-  background-color: #007bff;
+  background-color: #007bff; /* Primary blue */
   color: #fff;
   padding: 10px 20px;
   text-align: center;
@@ -34,10 +22,9 @@ header {
 
 nav ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 nav ul li {
@@ -58,43 +45,8 @@ section {
   margin: 20px;
 }
 
-.project {
-  margin-bottom: 20px;
-}
-
-.project img {
-  max-width: 100%;
-  height: auto;
-}
-
-.contact form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.contact input,
-.contact textarea,
-.contact button {
-  margin-bottom: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
-}
-
-.contact button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-.contact button:hover {
-  background-color: #0056b3;
-}
-
 footer {
-  background-color: #007bff;
+  background-color: #007bff; /* Primary blue */
   color: #fff;
   text-align: center;
   padding: 10px 0;
@@ -105,10 +57,10 @@ footer {
 
 footer ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 footer ul li {

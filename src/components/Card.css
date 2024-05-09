@@ -1,0 +1,41 @@
+.project-card {
+    width: 100%; /* Adjust size as needed, or use max-width for responsiveness */
+    max-width: 300px; /* Responsive max-width */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--secondary-color); /* Soft background color */
+    margin: 10px; /* Space around cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transformations */
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.project-title {
+    font-size: 1.25em; /* Making title slightly larger */
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    text-decoration: none; /* Removes underline */
+}
+
+.project-image {
+    width: 100%; /* Ensures image takes full width of the card */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.project-description {
+    font-size: 0.9em;
+    color: var(--text-color);
+    margin-bottom: 10px; /* Space above the GitHub icon */
+}
+
+.github-icon {
+    width: 24px; /* Consistent icon size */
+    height: 24px; /* Consistent icon */
+};
