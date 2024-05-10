@@ -22,7 +22,7 @@ This was absolutely the most fun I've had all year, please check the site out, I
   - `/components`: Reusable React components.
   - `/pages`: React components that represent pages of the app.
   - `/media`: Images and other static files used in the project.
-- `/public`: Public files, including the `index.html` and static assets like my resume.
+- `/public`: Public includes my resume.pdf
 
 ## Deployment
 This project is deployed at https://astounding-pegasus-228440.netlify.app/. You can access it to see the live version of the application.
